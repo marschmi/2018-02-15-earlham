@@ -198,8 +198,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
 <p><em>Surveys</em></p>
 {% if page.carpentry == "swc" %} 
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+  <p>Please be sure to complete these surveys before and after the workshop using the workshop ID "Earlham College Feb 15-16, 2018". <strong>If you do not select the correct workshop ID we will not receive your results.</strong></p><p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "dc" %}
   <p>Please be sure to complete these surveys before and after the workshop using the workshop ID "Earlham College Feb 15-16, 2018". <strong>If you do not select the correct workshop ID we will not receive your results.</strong></p>
